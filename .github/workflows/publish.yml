@@ -33,7 +33,7 @@ jobs:
     - run: npm i
 
   
-    publish: 
+  publish: 
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/dev' }}
     needs: [quality]
