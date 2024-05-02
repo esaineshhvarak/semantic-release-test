@@ -11,6 +11,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "commit": "git-cz",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "semantic-release": "semantic-release --branches dev"
@@ -38,6 +39,12 @@
     "url": "https://github.com/esaineshhvarak/semantic-release-test.git"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "semantic-release": "^23.0.8"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
