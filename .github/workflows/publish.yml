@@ -27,10 +27,13 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: npm cache clean --force
+    - run: npm install -g n
+    - run: n latest
     - run: npm i
-    - run: npm ci
+
   
-  publish: 
+    publish: 
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/dev' }}
     needs: [quality]
@@ -42,6 +45,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - run: npm run semantic-release
-      
-  
+    - run: npm run semantic-release 
+    
