@@ -42,5 +42,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - run: npx -p node@v18-lts -c "npx semantic-release"
+    - run: npm run semantic-release 
     
