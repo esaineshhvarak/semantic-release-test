@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    {console.log("sdd")}
+    {console.log("sddf")}
   </React.StrictMode>
 );
 
