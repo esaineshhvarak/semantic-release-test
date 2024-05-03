@@ -24,6 +24,7 @@ function App() {
       <p1>Monthly release</p1>
       <p1>Weekly release</p1>
 
+      <h2>Important Addition</h2>
     </div>
   );
 }
