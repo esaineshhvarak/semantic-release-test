@@ -24,7 +24,11 @@ function App() {
       <p1>Monthly release</p1>
       <p1>Weekly release</p1>
 
+<<<<<<< HEAD
+      <h2>Important Addition Done in pipeline</h2>
+=======
       <h2>Important Addition</h2>
+>>>>>>> 9f21e659f2c1e7516a9eea2e0dd4e95a6fa62eef
     </div>
   );
 }
