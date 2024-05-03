@@ -29,6 +29,7 @@ function App() {
       <h5>From date </h5>
       <p>Header</p>
       <h3>Sub title</h3>
+      <p>footer</p>
     </div>
   );
 }
