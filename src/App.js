@@ -27,6 +27,8 @@ function App() {
       <h2>Important Addition Done in pipeline</h2>
       <h4>Filters</h4>
       <h5>From date </h5>
+      <p>Header</p>
+      <h3>Sub title</h3>
     </div>
   );
 }
