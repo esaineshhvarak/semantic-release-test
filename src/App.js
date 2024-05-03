@@ -6,6 +6,8 @@ function App() {
     <div className="App">
       <div> Dashboard</div>
       <h1>Feature</h1>
+      <p1>Monthly release</p1>
+      <p1>Weekly release</p1>
 
     </div>
   );
